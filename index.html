@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Genograma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/index.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="contenedor"></div>
+    <div class="menu_abrir">
+        <i class="fa fa-bars"></i>
+    </div>
+    <div class="menu">
+        <i class="fa fa-close"></i>
+        <div>Seleccione una figura</div>
+        <svg class="figura_svg circulo" width="50" height="50"><circle cx="25" cy="25" r="24" stroke="black" stroke-width="2" fill="white" /></svg>
+        <svg class="figura_svg doble_circulo" width="50" height="50"><circle cx="25" cy="25" r="24" stroke="black" stroke-width="2" fill="white" /><circle cx="25" cy="25" r="20" stroke="black" stroke-width="2" fill="white" /></svg>
+        <br>
+        <svg class="figura_svg cuadrado" width="50" height="50"><rect width="48" height="48" x="1" y="1" style="fill:white;stroke-width:2;stroke:black"/></svg>
+        <svg class="figura_svg doble_cuadrado" width="50" height="50"><rect width="48" height="48" x="1" y="1" style="fill:white;stroke-width:2;stroke:black"></rect><rect width="40" height="40" x="5" y="5" style="fill:white;stroke-width:2;stroke:black"/></svg>
+        <br>
+        <svg class="figura_svg triangulo" height="50" width="50"><polygon points="25,1 1,49 49,49" class="triangle" fill="white" stroke="black" stroke-width="2" fill="white" /></svg>
+    </div>
+</body>
+</html>
