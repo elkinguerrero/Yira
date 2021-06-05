@@ -152,6 +152,8 @@ $(document).ready(function(){
             return `<svg class="${clase} figura_svg" width="50" height="50"><g><rect width="48" height="48" x="1" y="1" style="fill:white;stroke-width:2;stroke:black"></rect><rect width="40" height="40" x="5" y="5" style="fill:white;stroke-width:2;stroke:black"/></g></svg>`;
         }else if(figura == "triangulo"){
             return `<svg class="${clase} figura_svg" height="50" width="50"><g><polygon points="25,1 1,49 49,49" class="triangle" fill="white" stroke="black" stroke-width="2" fill="white" /></g></svg>`;
+        }else if(figura == "equis"){
+            return `<svg class="${clase} viewBox="0 0 50 50" height="50" width="50"><g><g transform="matrix(-1 0 0 1 863.55 0)"><path d="M818,4.7l40.5,40.5" style="stroke:#000000;stroke-width:12"/></g><g transform="matrix(-1 0 0 1 863.55 0)"><path d="M858.8,4.7l-40.5,40.5" style="stroke:#000000;stroke-width:12"/></g><g transform="matrix(-1 0 0 1 863.55 0)"><path d="M857.3,6.1l-37.5,37.8" style="stroke:#FFFFFF;stroke-width:7"/></g><g transform="matrix(-1 0 0 1 863.55 0)"><path class="st1" d="M819.5,5.7L857,43.5" style="stroke:#FFFFFF;stroke-width:7"/></g></g></svg>`;
         }
     }
 })
